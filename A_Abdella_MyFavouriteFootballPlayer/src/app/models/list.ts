@@ -6,7 +6,7 @@ export class List {
   private _items: Content[];
   constructor(item: Content) {
     this._items = [];
-     this._items[0] = item;
+    // this._items[0] = item;
     this.addCount();
   }
 
