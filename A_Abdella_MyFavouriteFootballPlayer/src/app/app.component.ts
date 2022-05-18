@@ -23,7 +23,7 @@ constructor() {
   this.cr7 = {
     id: 1,
     title: "Cristion Ronaldo",
-    body: undefined,
+    body: "Best player in the history of football",
     author: "Cristion",
     imageLink: undefined,
     type: "CR7",
@@ -33,32 +33,32 @@ constructor() {
 
   this.kb9 = {
     id: 2,
-    title: "Cristion Ronaldo",
-    body: undefined,
-    author: "Cristion",
+    title: "Karim Benzem",
+    body: "Best Player in 2022",
+    author: "Benzem",
     imageLink: undefined,
-    type: "CR7",
+    type: "KB9",
     hashtags: undefined
   };
 
   this.km7 = {
     id: 3,
-    title: "Cristion Ronaldo",
+    title: "kylian Mbappe",
     body: undefined,
-    author: "Cristion",
+    author: "Mbappe",
     imageLink: undefined,
-    type: "CR7",
+    type: "KM7",
     hashtags: undefined
   };
 
 
   this.r9 = {
     id: 4,
- title: "Cristion Ronaldo",
+    title: "Ronaldo Nazario",
     body: undefined,
-    author: "Cristion",
+    author: "El Fenómeno",
     imageLink: undefined,
-    type: "CR7",
+    type: "R9",
     hashtags: undefined
   };
 }
