@@ -9,7 +9,7 @@ import { Content } from '../models/content';
 export class ContentCardComponent implements OnInit {
 
   @Input() contentItem?: Content;
-  contentItem2?: Content;
+  // contentItem2?: Content;
 
   constructor() { }
 
