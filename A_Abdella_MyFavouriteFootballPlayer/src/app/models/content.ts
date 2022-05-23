@@ -1,9 +1,9 @@
 export interface Content {
     id: number;
-    title: string;
-    body?: string;
-    author: string;
+    name: string;
+    position?: string;
+    age: number;
     imageLink?: string;
-    type: string;
+    nationality: string;
     hashtags?: string[];
 }
