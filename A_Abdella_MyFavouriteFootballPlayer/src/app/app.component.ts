@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Content } from './models/content';
-import { List } from './models/list';
+
 
 @Component({
   selector: 'app-root',
@@ -15,7 +15,7 @@ kb9: Content;
 km7: Content;
 r9: Content;
 
-list?: List;
+
 
 
 constructor() {
