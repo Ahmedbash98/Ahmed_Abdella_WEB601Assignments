@@ -1,5 +1,5 @@
 <div>
-    <app-content-card *ngFor="let item of players; index as i; even as isEven" [contentItem]="item"
-      class="players-{{i}}" [class.is-even]="isEven">
-    </app-content-card>
-  </div>
+  <app-content-card *ngFor="let item of players; index as i; odd as isOdd" [contentItem]="item"
+    class="players-{{i}}" [class.is-odd]="isOdd">
+  </app-content-card>
+</div>
