@@ -1,11 +1,8 @@
-
-  <h2>
-    {{ contentItem?.name }}
-  </h2>
-  <!-- <img *ngIf="contentItem" src="{{contentItem.imageUrl}}"> -->
-  <img *ngIf="contentItem" [src]="contentItem.imageLink">
-  <p class="body" *ngIf="contentItem && contentItem.nationality; else elseBlockNameIsWhateverYouWant">{{contentItem?.nationality}}</p>
-  <ng-template #elseBlockNameIsWhateverYouWant>
-    <p class="not-found">No body content found</p>
-  </ng-template>
-  <div class="type">{{contentItem?.age}}</div>
+<div>
+<h2 class="name" *ngIf="contentItem && contentItem.name;">Name: {{contentItem.name}}</h2>
+  <img *ngIf="contentItem" [src]="contentItem.imageLink" (click)="click ()"><br>
+  <div class="position" *ngIf="contentItem && contentItem.position;">Position: {{contentItem?.position}}</div><br>
+  <div class="age" *ngIf="contentItem && contentItem.age;" >Age: {{contentItem.age}}</div><br>
+  <div class="nationality" *ngIf="contentItem && contentItem.nationality;">Nationality: {{contentItem.nationality}}</div><br>
+  <div class="hashtags" *ngIf="contentItem && contentItem.hashtags;">Hashtags: {{contentItem?.hashtags}}</div><br>
+</div>

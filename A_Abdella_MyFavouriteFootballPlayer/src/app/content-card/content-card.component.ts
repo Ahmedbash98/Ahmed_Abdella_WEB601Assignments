@@ -11,9 +11,14 @@ export class ContentCardComponent implements OnInit {
   @Input() contentItem?: Content;
   // contentItem2?: Content;
 
-  constructor() { }
+  constructor() { 
+  }
 
   ngOnInit(): void {
   }
+
+  click(){
+    console.log( this.contentItem?.id , this.contentItem?.age)
+  };
 
 }
