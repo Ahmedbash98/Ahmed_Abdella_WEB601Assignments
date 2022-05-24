@@ -1,5 +1,5 @@
 <div>
-<h2 class="name" *ngIf="contentItem && contentItem.name;">Name: {{contentItem.name}}</h2>
+<h2 class="name" *ngIf="contentItem && contentItem.name;">{{contentItem.name}}</h2>
   <img *ngIf="contentItem" [src]="contentItem.imageLink" (click)="click ()"><br>
   <div class="position" *ngIf="contentItem && contentItem.position;">Position: {{contentItem?.position}}</div><br>
   <div class="age" *ngIf="contentItem && contentItem.age;" >Age: {{contentItem.age}}</div><br>
