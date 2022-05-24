@@ -1,12 +1,3 @@
-<h2>
-    {{ contentItem?.name }}
-  </h2>
- 
-  <img *ngIf="contentItem" [src]="contentItem.imageLink">
-  <p class="body" *ngIf="contentItem && contentItem.position; else elseBlockNameIsWhateverYouWant">{{contentItem?.position}}</p>
-  <ng-template #elseBlockNameIsWhateverYouWant>
-    <p class="not-found">No body content found</p>
-  </ng-template>
-  <div class="type">{{contentItem?.age}}</div>
+
   
   
