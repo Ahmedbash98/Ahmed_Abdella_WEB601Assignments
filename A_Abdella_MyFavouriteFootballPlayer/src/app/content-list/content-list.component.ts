@@ -19,7 +19,6 @@ export class ContentListComponent implements OnInit {
       imageLink: "https://i.guim.co.uk/img/media/5194e5d243674ac838e4e0c019a91d159d694192/280_111_2931_1759/master/2931.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=c16b57f44e75b88dc5758321810eac15",
       nationality: "Portuguese",
       hashtags: ["CR7", "The Goat"]
-      
     },{
       id:1,
       name: "Mohamed Salah",
