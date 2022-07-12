@@ -52,6 +52,22 @@ export class ContentListComponent implements OnInit {
       imageLink: "https://i.guim.co.uk/img/media/5f1c5ea628f850be9ecfbee70249e4e5ae05faa6/474_315_3167_1899/master/3167.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=bdc1ec1553a52eb796373ccf46f8cb88",
       nationality: "France",
       hashtags: undefined
+    },{
+      id:5,
+      name: "Erling haaland",
+      position: "ST",
+      age: 21,
+      imageLink: "https://resources.premierleague.com/premierleague/photo/2022/06/13/2614d408-15f7-4519-81a3-00d77fad6108/Erling-Haaland-Man-City.jpg",
+      nationality: "Denmark",
+      hashtags: undefined
+    },{
+      id:4,
+      name: "Vinicius jr",
+      // position: "LW",
+      age: 22,
+      imageLink: "https://images2.minutemediacdn.com/image/fetch/w_2000,h_2000,c_fit/https%3A%2F%2Ftherealchamps.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F07%2F1240963575.jpeg",
+      nationality: "Brazil",
+      hashtags: undefined
     }
   ]
 
